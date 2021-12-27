@@ -1,6 +1,6 @@
-;--------------------------------------------------------------------------------------------------------; </br>
+;----------------------------------------------------------------------------------------------------------------------------; </br>
 ;<b> Scrip em PHP que gera uma chamada automática, quando preenchemos as informações do formulário na web </b><br>
-;--------------------------------------------------------------------------------------------------------;<br>
+;----------------------------------------------------------------------------------------------------------------------------;<br>
 
 - Chamada é gerada através de um servidor asterisk, utilizei o PABX ISSABEL;</br>
 - Asterisk possui banco de dados(MYSQL) com as seguintes tabelas (clicktocall, manager)</br>
