@@ -1,8 +1,8 @@
 <?php
 
-//Inicio script
+// Inicio script
 
-// Chega informações enviadas através da web
+// Verifica informações enviadas através da web
   if(isset($_POST['submit']) and !empty($_POST['norigem']) and !empty($_POST['ndestino']) and !empty($_POST['callerid']))
   {
     include_once('manager.php');
@@ -16,7 +16,7 @@
     header('Location: index.php');
   }
 
-//  Checa ramal Origem
+//  Checa ramal Origem no BD tabela clicktocall
   $sqlNorigem = "SELECT * FROM clicktocall where norigem='$nOrigem'";
   $resultNorigem = $conexao->query($sqlNorigem);
 
@@ -26,7 +26,7 @@
   }
 
 
-// Verifica o contexto do ramal
+// Verifica o contexto do ramal de acordo com o BD
 $sqlContexto = "SELECT * FROM clicktocall where norigem='$nOrigem'";
 $resultContexto = $conexao->query($sqlContexto);
 
