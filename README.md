@@ -1,21 +1,21 @@
 ;------------------------------------------------------------------------------------------------------; </br>
-;<b> Scrip em PHP que gera uma chamada automática, quando preenchemos as informações do formulário na web.</b.;
-;------------------------------------------------------------------------------------------------------;
+;<b> Scrip em PHP que gera uma chamada automática, quando preenchemos as informações do formulário na web.</b>.;
+;------------------------------------------------------------------------------------------------------;</br>
 
-- Chamada é gerada através de um servidor asterisk, utilizei o PABX ISSABEL;
-- Asterisk possui banco de dados(MYSQL) com as seguintes tabelas (clicktocall, manager)
+- Chamada é gerada através de um servidor asterisk, utilizei o PABX ISSABEL;</br>
+- Asterisk possui banco de dados(MYSQL) com as seguintes tabelas (clicktocall, manager)</br>
 
-Descrição de cada tabela!
+Descrição de cada tabela!</br>
 
-* Table clicktocall : 
+* Table clicktocall : </br>
 
-+---------+-------------+------+-----+---------------+----------------+
-| Field   | Type        | Null | Key | Default       | Extra          |
-+---------+-------------+------+-----+---------------+----------------+
-| id      | int(11)     | NO   | PRI | NULL          | auto_increment |
-| norigem | int(4)      | NO   |     | NULL          |                |
-| context | varchar(45) | NO   |     | from-internal |                |
-+---------+-------------+------+-----+---------------+----------------+
++---------+-------------+------+-----+---------------+----------------+</br>
+| Field   | Type        | Null | Key | Default       | Extra          |</br>
++---------+-------------+------+-----+---------------+----------------+</br>
+| id      | int(11)     | NO   | PRI | NULL          | auto_increment |</br>
+| norigem | int(4)      | NO   |     | NULL          |                |</br>
+| context | varchar(45) | NO   |     | from-internal |                |</br>
++---------+-------------+------+-----+---------------+----------------+</br>
 
 * Table manager :
 
