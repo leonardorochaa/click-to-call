@@ -68,15 +68,15 @@ writetimeout = 5000<br>
 - Asterisk possui dois ramais de teste para que funcione o click-to-call : <br>
 
 Name/username             Host                                    Dyn Forcerport Comedia    ACL Port     Status      Description<br>
-998/998                   192.168.0.19                             D  No         No          A  47464    OK (10 ms)<br>                 
+998/998                   192.168.0.19                             D  No         No          A  47464    OK (10 ms)                 
 999/999                   192.168.0.11                             D  No         No          A  53803    OK (1 ms)<br> 
 
 O restante é feito com o script PHP e com um HTML CSS básico de um formulário.<br>
 
-Script PHP : clicktocall.php<br>
-Script Conexão Banco de Dados : conexaobd.php<br>
-Página principal HTML e CSS : index.php<br>
-Script manager : manager.php<br>
+- Script PHP : clicktocall.php<br>
+- Script Conexão Banco de Dados : conexaobd.php<br>
+- Página principal HTML e CSS : index.php<br>
+- Script manager : manager.php<br>
 
 Sei que clicktocall é você clicando em algo e mandando a discagem e etc, mas nesse caso fiz através de um formulário, caso necessário poderá utilizar também clicando em algo, basta alterar de acordo com a sua utilização.<br>
 
