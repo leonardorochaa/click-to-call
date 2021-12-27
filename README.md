@@ -78,7 +78,7 @@ O restante é feito com o script PHP e com um HTML CSS básico de um formulário
 - Página principal HTML e CSS : index.php<br>
 - Script manager : manager.php<br>
 
-Sei que clicktocall é você clicando em algo e mandando a discagem e etc, mas nesse caso fiz através de um formulário, caso necessário poderá utilizar também clicando em algo, basta alterar de acordo com a sua utilização.<br>
+Sei que clicktocall é você clicando em algo e mandando a discagem e etc, mas nesse caso fiz através de um formulário, caso necessário poderá utilizar também clicando em algo, basta alterar o código de acordo com a sua utilização.<br>
 
 Vlww tmj :)
 
