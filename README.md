@@ -1,5 +1,5 @@
 ;------------------------------------------------------------------------------------------------------;
-; Scrip em PHP que gera uma chamada automática, quando preenchemos as informações do formulário na web.;
+;<b> Scrip em PHP que gera uma chamada automática, quando preenchemos as informações do formulário na web.</b.;
 ;------------------------------------------------------------------------------------------------------;
 
 - Chamada é gerada através de um servidor asterisk, utilizei o PABX ISSABEL;
