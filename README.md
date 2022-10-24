@@ -83,4 +83,3 @@ Sei que clicktocall é você clicando em algo e mandando a discagem e etc, mas n
 Vlww tmj :)
 Avanço e Sucesso
 
-Amém
